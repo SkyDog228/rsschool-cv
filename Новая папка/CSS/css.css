@@ -1,0 +1,52 @@
+body {
+    background: rgb(205,252,214);
+background: linear-gradient(0deg, rgba(205,252,214,1) 38%, rgba(162,254,104,1) 100%);
+    margin: 0;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 50px;
+    text-align:center;
+    width: 100%;
+}
+.t{
+    display: block;
+    text-align: center;
+    background-color: rgb(218, 241, 112);
+    color: black;
+    width: 500px;
+    border-radius: 2em;
+    border-color: black;
+    border: 1px;
+    margin-top: 15px;
+}
+h1 {
+    font-size: 60px;
+}
+h2 {
+    font-size: 35px;
+    color: black;
+}
+h3 {
+    text-align: left;
+    font-size: 30px;
+    color: rgb(34, 33, 33);
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(168, 64, 64);
+    font-size: 50px;
+    transition: 0.3s;
+}
+a:hover{
+    color: crimson;
+    font-size: 53px;   
+}
+.p{
+    color: blueviolet;
+    font-size: 40px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}

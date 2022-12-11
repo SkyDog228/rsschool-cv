@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(0deg, rgba(252,205,205,1) 0%, rgba(251,161,161,1) 0%, rgba(254,169,104,1) 100%);
+    margin: 0;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 50px;
+    text-align:center;
+    width: 100%;
+    color: rgb(245, 72, 153);
+    overflow-x: hidden;
+}
+header {
+    background-color: gainsboro;
+    color: rgb(245, 72, 153);
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: rgb(245, 72, 153);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    transition: 0.3s;
+}
+a:hover {
+    color: rgb(0, 174, 255);
+    transition: 0.7s;
+    text-decoration: none;
+    font-size: 60px; 
+}
+img {
+    padding-top: 10px;
+}
+.grid-container {
+    grid-template-columns: auto auto auto;
+    display: grid;
+}
+.jv {
+    margin-top: -35px;
+}

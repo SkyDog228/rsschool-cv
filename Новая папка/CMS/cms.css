@@ -1,0 +1,7 @@
+body{
+    background: rgb(219,106,255);
+background: linear-gradient(0deg, rgba(219,106,255,1) 38%, rgba(197,102,198,1) 100%);
+}
+p{
+    font-size: 30px;
+}

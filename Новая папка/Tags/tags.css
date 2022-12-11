@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(67, 93, 165);
+    color:orange;
+    font-size: 30px;
+    text-align: center;
+}
+div{
+    background-color: rgb(53, 112, 112);
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+button{
+    margin: 0 auto;
+    background-color: chocolate;
+    display: block;
+    text-decoration: none;
+    border:  0px;
+}
+button:hover{
+    text-decoration: none;
+}
+table {
+    width: 320px;
+    margin: auto;
+    border: 1px solid black;
+}
+td{
+    text-align: center;
+    border: 1px solid black;
+}
+article{
+    text-align: left;
+}
+ins{
+    text-decoration: none;
+}
+
+.f {
+    position: fixed;
+    background: rgb(37, 31, 31);
+    height: 70px;
+    width: 50px;
+    top: 90%;
+    left: 90%;
+    font-size: 20px;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    transition: 0.3s;
+}
+a:hover{
+    color: aqua;
+}

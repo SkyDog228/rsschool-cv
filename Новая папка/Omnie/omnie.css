@@ -1,0 +1,30 @@
+body {
+    background-color: darkturquoise;
+    margin: 0;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 50px;
+    text-align:center;
+    width: 100%;
+    color: honeydew;
+    font-size: 50px;
+}
+h2 {
+    font-size: 50px;
+    font-family: 'ubuntu', sans-serif;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px; 
+}
+img { 
+    width: 50%;
+}
+a {
+    color: honeydew;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    font-family: 'Italic', sans-serif;
+}
